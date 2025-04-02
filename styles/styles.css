@@ -1,0 +1,31 @@
+header {
+    background-color: #395061;
+}
+
+body { 
+    margin: 0;
+}
+
+img {
+    width: 100px;
+}
+
+p {
+    background-color: aliceblue;
+}
+
+hr {
+    height: 8px;
+    background-color: #303a63;
+    border: 0;
+}
+
+.inline{
+    display: inline;
+    margin-inline-end: 50px;
+    vertical-align: middle;
+}
+
+header.img {
+
+}
