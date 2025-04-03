@@ -1,23 +1,41 @@
 header {
     background-color: #395061;
+    border-bottom: #303a63, 8px, solid;
+}
+
+footer {
+    background-color: #395061;
+    border-top: #303a63, 8px, solid;
+    height: 25px;
 }
 
 body { 
     margin: 0;
+    background-color: #dadada;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    overflow: auto;
 }
 
 img {
     width: 100px;
+    display: inline;
 }
 
 p {
-    background-color: aliceblue;
+    display: inline;
+    vertical-align:top;
+    width:max-content;
 }
 
-hr {
-    height: 8px;
-    background-color: #303a63;
-    border: 0;
+a {
+    font-size: larger;
+    color: #bb5a21;
 }
 
 .inline{
@@ -26,6 +44,17 @@ hr {
     vertical-align: middle;
 }
 
-header.img {
+.blurb {
+    background-color: #e2ccbe;
+    margin: 20px;
+    border: #303a63, 8px, solid;
+    border-radius: 5px;
+}
 
+.heading {
+    margin: 15px;
+}
+
+body *{
+    box-sizing: border-box;
 }
