@@ -1,3 +1,7 @@
+body *{
+    box-sizing: border-box;
+}
+
 header {
     background-color: #395061;
     border-bottom: #303a63, 8px, solid;
@@ -55,6 +59,12 @@ a {
     margin: 15px;
 }
 
-body *{
-    box-sizing: border-box;
+.map {
+    margin:20px;
+    border: #303a63, 8px, solid;
+    border-radius: 5px;
+    height: 500px;
+    width: 500px;
 }
+
+
